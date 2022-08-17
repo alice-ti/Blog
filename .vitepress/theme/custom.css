@@ -21,9 +21,6 @@
 	/* 引用背景色 */
 	--color-block-bg: rgba(77, 208, 225, 0.15);
 
-	/* 最小宽度 */
-	--vp-layout-max-width: 1900px;
-
 	/* a标签 */
 	--vp-c-brand: #9e1068;
 	--vp-c-brand-dark: #520339;
@@ -31,6 +28,13 @@
 	--vp-button-brand-border: #2d143d;
 	--vp-button-brand-hover-bg: #8a1874;
 	--vp-button-brand-hover-border: #a6559d;
+}
+
+/* 最小宽度 */
+@media (min-width: 1440px) {
+	:root {
+		/* --vp-layout-max-width: 102rem; */
+	}
 }
 
 /* css */
@@ -117,5 +121,4 @@
 .container p {
 	margin-top: 0;
 	margin-bottom: 10px;
-	color: #2b2b2b;
 }
