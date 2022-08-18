@@ -1,5 +1,5 @@
 const nav = [
-	{ text: '精选好文', link: '/blog/blog/' },
+	{ text: '精选好文', link: '/currency/' },
 	{
 		text: '我的分类',
 		items: [
@@ -13,15 +13,16 @@ const nav = [
 				items: [{ text: 'BUG百宝袋', link: '/wrong/' }]
 			},
 			{
-				items: [{ text: '打工人日记', link: '/item-A1' }]
+				items: [{ text: '农民工之魂', link: '/diary/miniapp/uniapp' }]
 			}
 		]
 	},
+	{ text: 'Tags', link: '/currency/tags' },
 	{
 		text: 'Drop Menu',
 		items: [
-			{ text: 'Item A', link: '/item-1' },
-			{ text: 'Item B', link: '/item-2' },
+			{ text: 'uniapp', link: '/diary/miniapp/uniapp' },
+			{ text: '项目配置', link: '/diary/standard/base' },
 			{ text: 'Item C', link: '/item-3' }
 		]
 	}

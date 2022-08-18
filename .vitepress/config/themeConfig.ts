@@ -7,7 +7,7 @@ const themeConfig = {
 	footer,
 	sidebar: {
 		'/docs/': getDocs('docs'),
-		'/blog/': getDocs('blog')
+		// '/diary/': getDocs('diary'),
 	},
 
 	// todo 需要申请 后续操作

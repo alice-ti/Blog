@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.4",
+    "vitepress": "^1.0.0-alpha.8",
     "vue": "^3.2.37"
   },
   "devDependencies": {
-    "globby": "^13.1.2"
+    "@types/node": "^18.7.6"
   }
 }
