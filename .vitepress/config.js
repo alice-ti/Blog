@@ -9,7 +9,7 @@ const config = {
 	description: 'Xaku with vitePress',
 	// 打包目录
 	dest: '/dist',
-	base: '/docs/',
+	// base: '/docs/',
 	// 头部head
 	head: [
 		// 添加图标
