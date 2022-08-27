@@ -15,6 +15,8 @@ const config = {
 		// 添加图标
 		['link', { rel: 'icon', href: '/favicon.ico' }]
 	],
+	// 忽略死链接
+	ignoreDeadLinks: true,
 
 	// 主题配置
 	themeConfig
