@@ -22,7 +22,7 @@ const nav = [
 		text: 'Drop Menu',
 		items: [
 			{ text: 'uniapp', link: '/diary/miniapp/uniapp' },
-			{ text: '项目配置', link: '/diary/standard/base' },
+			{ text: 'Basic setting', link: '/diary/standard/base' },
 			{ text: 'Item C', link: '/item-3' }
 		]
 	}
