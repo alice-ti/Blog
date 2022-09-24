@@ -7,6 +7,7 @@ const docsMap = new Map([
 	['JavaScript', 10],
 	['Vue', 15],
 	['React', 20],
+	['TypeScript', 25],
 	['Webpack', 30],
 	['Vite', 45],
 	['Miniapp', 55],
