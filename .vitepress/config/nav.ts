@@ -7,10 +7,10 @@ const nav = [
 				items: [{ text: '技术万花筒', link: '/docs/HTML/' }]
 			},
 			{
-				items: [{ text: '日常见闻录', link: '/news/' }]
+				items: [{ text: '日常见闻录', link: '/news/月刊少女' }]
 			},
 			{
-				items: [{ text: 'BUG百宝袋', link: '/wrong/' }]
+				items: [{ text: '百宝袋', link: '/wrong/浏览器' }]
 			},
 			{
 				items: [{ text: '农民工之魂', link: '/diary/miniapp/uniapp' }]

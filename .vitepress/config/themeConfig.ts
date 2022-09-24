@@ -6,7 +6,7 @@ const themeConfig = {
 	nav,
 	footer,
 	sidebar: {
-		'/docs/': getDocs('docs'),
+		'/docs/': getDocs('docs')
 		// '/diary/': getDocs('diary'),
 	},
 
