@@ -1,7 +1,7 @@
 
 # React 读书笔记
 
-> [React Docs]("https://beta.reactjs.org/learn/sharing-state-between-components")
+> [React Docs](https://beta.reactjs.org/learn/sharing-state-between-components)
 
 ## JSX
 
@@ -83,7 +83,7 @@ pnpm create vite
 
 你还可以通过附加的命令行选项直接指定项目名称和你想要使用的模板。
 
-查看 [create-vite]('https://github.com/vitejs/vite/tree/main/packages/create-vite') 以获取每个模板的更多细节：**vanilla**、**vanilla-ts**、**vue**、**vue-ts**、**react**、**react-ts**、**preact**、**preact-ts**、**lit**、**lit-ts**、**svelte**、**svelte-ts**。
+查看 [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite) 以获取每个模板的更多细节：**vanilla**、**vanilla-ts**、**vue**、**vue-ts**、**react**、**react-ts**、**preact**、**preact-ts**、**lit**、**lit-ts**、**svelte**、**svelte-ts**。
 
 ### 🍊 Next
 
