@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.a9493200.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/CSS/Grid\u5E03\u5C40.md"}'),a={name:"docs/CSS/Grid\u5E03\u5C40.md"};function o(s,c,n,d,_,i){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};
