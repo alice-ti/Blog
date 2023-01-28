@@ -32,7 +32,7 @@ type SidebarItem = {
  * @param link
  * @returns
  */
-const getDocs = (link: string) => {
+export const getDocs = (link: string) => {
 	const arr = getFilePaths(link)
 	return arr.sort((a, b) => (a as SidebarMenu)!.weight - (b as SidebarMenu).weight)
 }
@@ -65,4 +65,9 @@ const getFilePaths = (entry: string, result: Array<SidebarItem | SidebarMenu> = 
 	return result
 }
 
-export { getDocs }
+
+export const getDirDocs = (link:string) => {
+	const arr = getFilePaths(link)
+	console.log(arr)
+	return arr.sort((a, b) => (a as SidebarMenu)!.weight - (b as SidebarMenu).weight)
+}

@@ -1,13 +1,13 @@
 import nav from './nav'
 import footer from './footer'
-import { getDocs } from './sidebar'
+import { getDocs, getDirDocs } from './sidebar'
 
 const themeConfig = {
 	nav,
 	footer,
 	sidebar: {
-		'/docs/': getDocs('docs')
-		// '/diary/': getDocs('diary'),
+		'/files/docs/': getDocs('files/docs'),
+		'/files/news/': [{ items: getDirDocs('files/news/') }]
 	},
 
 	// todo 需要申请 后续操作

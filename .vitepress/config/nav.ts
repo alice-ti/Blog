@@ -1,29 +1,29 @@
 const nav = [
-	{ text: '精选好文', link: '/currency/' },
+	{ text: '精选好文', link: '/files/blog/转载博客.md' },
 	{
 		text: '我的分类',
 		items: [
 			{
-				items: [{ text: '技术万花筒', link: '/docs/HTML/' }]
+				items: [{ text: '万花筒', link: '/files/docs/HTML/' }]
 			},
 			{
-				items: [{ text: '日常见闻录', link: '/news/月刊少女' }]
+				items: [{ text: '见闻录', link: '/files/news/月刊少女' }]
 			},
 			{
-				items: [{ text: '百宝袋', link: '/wrong/浏览器' }]
+				items: [{ text: '百宝袋', link: '/files/diary/awesome/awesome常用合集' }]
 			},
 			{
-				items: [{ text: '农民工之魂', link: '/diary/miniapp/uniapp' }]
+				items: [{ text: '农民工之魂', link: '/files/diary/miniapp/uniapp' }]
 			}
 		]
 	},
-	{ text: 'Tags', link: '/currency/tags' },
+	{ text: 'Tags', link: '/files/currency/tags' },
 	{
 		text: 'Drop Menu',
 		items: [
-			{ text: 'uniapp', link: '/diary/miniapp/uniapp' },
-			{ text: 'Basic setting', link: '/diary/standard/base' },
-			{ text: 'Item C', link: '/item-3' }
+			{ text: 'uniapp', link: '/files/diary/miniapp/uniapp' },
+			{ text: 'Basic setting', link: '/files/diary/standard/base' },
+			{ text: 'browser', link: '/files/wrong/浏览器.md' }
 		]
 	}
 ]

@@ -1,6 +1,7 @@
 
 # 常用Awesome合集
 
+- [Awesome all](https://awesomejs.dev/)
 - [Awesome HTML5](https://github.com/diegocard/awesome-html5)
 - [Awesome CSS](https://github.com/awesome-css-group/awesome-css)
 - [Awesome JavaScript](https://github.com/sorrycc/awesome-javascript)
