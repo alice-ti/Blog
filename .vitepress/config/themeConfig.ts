@@ -17,7 +17,11 @@ const themeConfig = {
 	socialLinks: [{ icon: 'github', link: '#' }],
 	logo: '/logo/logo-v2.png',
 	// 启动页面丝滑滚动
-	smoothScroll: true
+	smoothScroll: true,
+	// 最后更新
+	lastUpdatedText: '上次更新',
+	// 上一页/下一页
+	// docFooter: { prev: '上一篇', next: '下一篇' }
 }
 
 export default themeConfig

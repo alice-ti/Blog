@@ -1,7 +1,7 @@
 {
-  "name": "interview",
+  "name": "alice",
   "version": "1.0.0",
-  "description": "interview with vitepress",
+  "description": "alice with vitepress",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev --port 8999",
@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.15",
-    "vue": "^3.2.39"
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@types/node": "^18.7.19"
+    "@types/node": "^18.13.0"
   }
 }

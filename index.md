@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: Alice-Ti
-  text: Vite & Vue powered static site generator.
+  text: 杏花疏影，杨柳新晴.
   tagline: Lorem ipsum...
   image:
     src: /logo.png
@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /files/docs/HTML/
+      link: /files/docs/HTML/01-html介绍
     - theme: alt
       text: View on GitHub
       link: https://github.com/vuejs/vitepress

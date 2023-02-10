@@ -4,16 +4,13 @@ const nav = [
 		text: '我的分类',
 		items: [
 			{
-				items: [{ text: '万花筒', link: '/files/docs/HTML/' }]
+				items: [{ text: '万花筒', link: '/files/docs/HTML/01-html介绍' }]
 			},
 			{
 				items: [{ text: '见闻录', link: '/files/news/月刊少女' }]
 			},
 			{
 				items: [{ text: '百宝袋', link: '/files/diary/awesome/awesome常用合集' }]
-			},
-			{
-				items: [{ text: '农民工之魂', link: '/files/diary/miniapp/uniapp' }]
 			}
 		]
 	},

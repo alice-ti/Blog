@@ -17,7 +17,9 @@ const config = {
 	],
 	// 忽略死链接
 	ignoreDeadLinks: true,
-
+	// 上次更新时间
+	lastUpdated: true,
+	
 	// 主题配置
 	themeConfig
 }

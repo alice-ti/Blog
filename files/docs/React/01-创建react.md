@@ -3,7 +3,7 @@
 
 > [React Docs](https://beta.reactjs.org/learn/sharing-state-between-components)
 
-## JSX
+## [JSX](/files/docs/React/02-jsx%E4%BD%BF%E7%94%A8%E4%B8%8E%E7%90%86%E8%A7%A3.md)
 
 ## render & commit
 
@@ -50,7 +50,7 @@ npx create-react-app react-ts-app --template typescript
 
 ### 🍇 Umi
 
-> 你可以通过 **yarn create umi** 或 **npm create umi** 使用 **create-umi**。推荐使用 **yarn create** 命令、能确保每次使用最新的脚手架。[Umi传送门]('https://v2.umijs.org/zh/guide/create-umi-app.html#%E4%BB%8B%E7%BB%8D-create-umi')
+> 你可以通过 **yarn create umi** 或 **npm create umi** 使用 **create-umi**。推荐使用 **yarn create** 命令、能确保每次使用最新的脚手架。[Umi传送门](https://v2.umijs.org/zh/guide/create-umi-app.html#%E4%BB%8B%E7%BB%8D-create-umi)
 
 ```sh
 mkdir myapp && cd myapp

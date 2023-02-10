@@ -6,19 +6,25 @@ on:
       - main
 
 jobs:
+  # 部署github 
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # 检测源码
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
-      - run: yarn install --frozen-lockfile
+          cache: pnpm
 
+      # 安装依赖
+      - run: pnpm install --frozen-lockfile
+
+      # 打包
       - name: Build
-        run: yarn build
+        run: pnpm build
 
+      # 部署github pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
