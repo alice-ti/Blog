@@ -12,6 +12,14 @@ jobs:
     steps:
       # 检测源码
       - uses: actions/checkout@v2
+
+      # 安装 PNPM
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+          
+      # 安装NODE环境
       - uses: actions/setup-node@v3
         with:
           node-version: 16
