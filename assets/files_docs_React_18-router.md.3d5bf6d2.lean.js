@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.800471f8.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/React/18-router.md","lastUpdated":1676870424000}'),r={name:"files/docs/React/18-router.md"};function o(s,c,n,d,p,_){return a(),t("div")}const l=e(r,[["render",o]]);export{f as __pageData,l as default};

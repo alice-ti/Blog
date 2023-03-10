@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.800471f8.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/CSS/05-Grid布局.md","lastUpdated":1676870424000}'),r={name:"files/docs/CSS/05-Grid布局.md"};function s(o,c,d,n,i,_){return a(),t("div")}const l=e(r,[["render",s]]);export{f as __pageData,l as default};
