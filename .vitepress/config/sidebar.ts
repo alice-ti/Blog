@@ -43,30 +43,29 @@ export const getDocs = (link: string) => {
  */
 const getFilePaths = (entry: string, result: Array<SidebarItem | SidebarMenu> = []) => {
 	const paths = fs.readdirSync(entry)
-	paths.map((ele: string) => {
+	paths.forEach((ele: string) => {
 		const location = path.join(entry, ele)
 		const info = fs.statSync(location)
+
+		let obj: SidebarItem | SidebarMenu = { text: path.basename(ele, path.extname(ele)), link: location }
+
+		// 嵌套
 		if (info.isDirectory()) {
 			const items = getFilePaths(location)
-			result!.push({
+			obj = {
 				text: ele,
 				collapsible: true,
 				collapsed: true,
 				weight: docsMap.get(ele) || 0,
 				items
-			} as SidebarMenu)
-		} else {
-			result!.push({
-				text: path.basename(ele, path.extname(ele)),
-				link: location
-			})
+			} as SidebarMenu
 		}
+		result!.push(obj)
 	})
-	return result
+	return result.sort((fir, sec) => parseInt(fir.text) - parseInt(sec.text))
 }
 
-
-export const getDirDocs = (link:string) => {
+export const getDirDocs = (link: string) => {
 	const arr = getFilePaths(link)
 	console.log(arr)
 	return arr.sort((a, b) => (a as SidebarMenu)!.weight - (b as SidebarMenu).weight)

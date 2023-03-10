@@ -7,7 +7,7 @@ const nav = [
 				items: [{ text: '万花筒', link: '/files/docs/HTML/01-html介绍' }]
 			},
 			{
-				items: [{ text: '见闻录', link: '/files/news/月刊少女' }]
+				items: [{ text: '见闻录', link: '/files/news/2023月刊少女' }]
 			},
 			{
 				items: [{ text: '百宝袋', link: '/files/diary/awesome/awesome常用合集' }]

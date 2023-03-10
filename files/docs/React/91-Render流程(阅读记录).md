@@ -444,8 +444,8 @@ commitRoot(root);
 
 > beginWork 流程图
 
-![beginWork](/public/img/react-beginWork.png)
+![beginWork](/img/react-beginWork.png)
 
 > completeWork 流程图
 
-![completeWork](/public/img/react-completeWork.png)
+![completeWork](/img/react-completeWork.png)
