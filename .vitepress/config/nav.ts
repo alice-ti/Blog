@@ -20,6 +20,7 @@ const nav = [
 		items: [
 			{ text: 'uniapp', link: '/files/diary/miniapp/uniapp' },
 			{ text: 'Basic setting', link: '/files/diary/standard/base' },
+			{ text: 'jsDoc', link: '/files/diary/standard/jsdoc' },
 			{ text: 'browser', link: '/files/wrong/浏览器.md' }
 		]
 	}

@@ -25,9 +25,11 @@
 	--vp-c-brand: #9e1068;
 	--vp-c-brand-dark: #520339;
 	/* 按钮 */
-	--vp-button-brand-border: #2d143d;
+	--vp-button-brand-border: #5e2780;
 	--vp-button-brand-hover-bg: #8a1874;
 	--vp-button-brand-hover-border: #a6559d;
+	--vp-button-brand-active-bg: #8a1874;
+	--vp-button-brand-active-border: #8a1854;
 }
 
 /* 最小宽度 */

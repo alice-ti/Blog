@@ -27,3 +27,15 @@ const Hello: React.FC<PropsWithChildren<HelloProps>> = ({
     );
 }
 ```
+
+## 常见事件的类型
+
+> **onchange** 事件类型
+
+```tsx
+<input type="text" onChange={handleChange} />
+
+const handleChange = (e: ChangeEvent<HTMLInputElement>): void => {
+    // ...
+}
+```
