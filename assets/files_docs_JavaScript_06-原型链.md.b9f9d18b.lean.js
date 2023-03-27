@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.a53e5520.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/JavaScript/06-原型链.md","lastUpdated":1678425817000}'),s={name:"files/docs/JavaScript/06-原型链.md"};function r(c,o,_,n,p,d){return a(),t("div")}const l=e(s,[["render",r]]);export{f as __pageData,l as default};

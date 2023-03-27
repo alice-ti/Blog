@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.a53e5520.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/CSS/04-Flex布局.md","lastUpdated":1678425817000}'),s={name:"files/docs/CSS/04-Flex布局.md"};function o(r,c,n,_,d,l){return a(),t("div")}const f=e(s,[["render",o]]);export{i as __pageData,f as default};
