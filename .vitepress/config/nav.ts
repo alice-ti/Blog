@@ -18,10 +18,11 @@ const nav = [
 	{
 		text: 'Drop Menu',
 		items: [
-			{ text: 'uniapp', link: '/files/diary/miniapp/uniapp' },
-			{ text: 'Basic setting', link: '/files/diary/standard/base' },
-			{ text: 'jsDoc', link: '/files/diary/standard/jsdoc' },
-			{ text: 'browser', link: '/files/wrong/浏览器.md' }
+			{ text: 'Uniapp', link: '/files/diary/miniapp/uniapp' },
+			{ text: 'Basic setting', link: '/files/diary/standard/01-base config' },
+			{ text: 'More Settings', link: '/files/diary/standard/02-replenish config' },
+			{ text: 'JsDoc', link: '/files/diary/standard/jsdoc' },
+			{ text: 'Browser', link: '/files/wrong/浏览器.md' }
 		]
 	}
 ]
