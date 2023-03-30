@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.bee2b69e.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/diary/project/04-引导处理.md","lastUpdated":1679898599000}'),r={name:"files/diary/project/04-引导处理.md"};function o(s,c,_,n,p,d){return a(),t("div")}const l=e(r,[["render",o]]);export{f as __pageData,l as default};
