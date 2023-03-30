@@ -26,7 +26,8 @@ jobs:
           cache: pnpm
 
       # 安装依赖
-      - run: pnpm install --frozen-lockfile
+      # - run: pnpm install --frozen-lockfile
+      - run: pnpm install --no-frozen-lockfile
 
       # 打包
       - name: Build
