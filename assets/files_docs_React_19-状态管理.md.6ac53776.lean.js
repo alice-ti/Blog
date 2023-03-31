@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.b24d80f6.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/React/19-状态管理.md","lastUpdated":1680151218000}'),s={name:"files/docs/React/19-状态管理.md"};function c(o,r,_,n,d,p){return a(),t("div")}const l=e(s,[["render",c]]);export{f as __pageData,l as default};

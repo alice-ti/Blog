@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.b24d80f6.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/CSS/18-backdrop-filter.md","lastUpdated":1680151218000}'),r={name:"files/docs/CSS/18-backdrop-filter.md"};function o(s,c,d,n,p,i){return a(),t("div")}const f=e(r,[["render",o]]);export{_ as __pageData,f as default};
