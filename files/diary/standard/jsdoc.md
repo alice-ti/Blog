@@ -192,3 +192,7 @@ function Person(username,age)
 | [@namespace](https://www.jsdoc.com.cn/tags-namespace)             |            | 标识一个命名空间                                                                        |
 | [@override](https://www.jsdoc.com.cn/tags-override)               |            | 子类覆盖父类的同名属性                                                                  |
 | [@property](https://www.jsdoc.com.cn/tags-property)               |            | 给对象的某个属性添加标识，配合@typedef使用，可生成任意自定义对象                        |
+
+---
+
+[Types in JavaScript With Zod and JSDoc](https://blog.jim-nielsen.com/2023/types-in-jsdoc-with-zod/)
