@@ -12,12 +12,12 @@ tech:
   name: Astro Docs
   link: <https://astro.build/>
 
-upper
+upper:
 -
   name: Next
   link: https://nextjs.org/
 
-deploy
+deploy:
 -
   name: Vercel
   link: https://vercel.com/docs?redirected=1
@@ -25,12 +25,12 @@ deploy
   name: Railway
   link: <https://railway.app/dashboard>
 
-forward
+forward:
 -
   name: Chat GPT
   link: <https://chat.openai.com/chat>
 
-tool
+tool:
 -
   name: Emoji
   link: <https://github.com/markdown-it/markdown-it-emoji/blob/master/lib/data/full.json>
