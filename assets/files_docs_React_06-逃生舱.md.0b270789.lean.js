@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.66067519.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"files/docs/React/06-逃生舱.md","lastUpdated":1684488397000}'),s={name:"files/docs/React/06-逃生舱.md"};function c(o,r,_,n,d,p){return a(),t("div")}const l=e(s,[["render",c]]);export{f as __pageData,l as default};
