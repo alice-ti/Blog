@@ -11,7 +11,8 @@ const docsMap = new Map([
 	['Webpack', 30],
 	['Vite', 45],
 	['Miniapp', 55],
-	['Network', 60]
+	['Network', 60],
+	['Node', 60],
 ])
 
 type SidebarMenu = {

@@ -1,7 +1,11 @@
 import { defineConfig } from 'vitepress'
+import head from './config/head'
+import footer from './config/footer'
 import themeConfig from './config/themeConfig'
 
 const config = {
+	head,
+	footer,
 	// ...
 	// 网站标题
 	title: 'Alice-Ti',

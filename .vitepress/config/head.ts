@@ -1,4 +1,6 @@
-const head = [
+import { HeadConfig } from 'vitepress'
+
+const head: HeadConfig[] = [
 	['link', { rel: 'icon', href: '/favicon.ico' }],
 	[
 		'link',
