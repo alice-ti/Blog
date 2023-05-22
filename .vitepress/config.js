@@ -10,7 +10,7 @@ const config = {
 	// 打包目录
 	dest: '/dist',
 	// base: '/Blog/', // github.io/Blog
-	base: '.',
+	base: '/',
 	// 头部head
 	head: [
 		// 添加图标
