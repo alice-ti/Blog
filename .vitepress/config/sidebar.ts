@@ -12,7 +12,7 @@ const docsMap = new Map([
 	['Vite', 45],
 	['Miniapp', 55],
 	['Network', 60],
-	['Node', 60],
+	['Node', 60]
 ])
 
 type SidebarMenu = {
@@ -68,6 +68,6 @@ const getFilePaths = (entry: string, result: Array<SidebarItem | SidebarMenu> = 
 
 export const getDirDocs = (link: string) => {
 	const arr = getFilePaths(link)
-	console.log(arr)
-	return arr.sort((a, b) => (a as SidebarMenu)!.weight - (b as SidebarMenu).weight)
+	const sort_arr = arr.sort((a, b) => (a as SidebarMenu)!.weight - (b as SidebarMenu).weight)
+	return [{ items: sort_arr }]
 }

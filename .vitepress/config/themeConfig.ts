@@ -1,12 +1,12 @@
-import { getDocs, getDirDocs } from './sidebar'
 import nav from './nav'
+import { getDocs, getDirDocs } from './sidebar'
 
 const themeConfig = {
 	nav,
 
 	sidebar: {
-		'/files/docs/': getDocs('files/docs')
-		// '/files/news/': [{ items: getDirDocs('files/news/') }]
+		'/files/docs/': getDocs('files/docs'),
+		'/files/wrong/': getDirDocs('files/wrong/')
 	},
 
 	// todo 需要申请 后续操作

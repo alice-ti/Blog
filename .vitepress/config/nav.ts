@@ -14,7 +14,7 @@ const nav = [
 			}
 		]
 	},
-	{ text: 'Tags', link: '/files/currency/tags' },
+	{ text: 'Tags', link: '/files/wrong/浏览器' },
 	{
 		text: 'Drop Menu',
 		items: [
@@ -22,7 +22,7 @@ const nav = [
 			{ text: 'Basic setting', link: '/files/diary/standard/01-baseConfig' },
 			{ text: 'More Settings', link: '/files/diary/standard/02-replenishConfig' },
 			{ text: 'JsDoc', link: '/files/diary/standard/jsdoc' },
-			{ text: 'Browser', link: '/files/wrong/浏览器.md' }
+			{ text: 'Browser', link: '/files/wrong/浏览器' }
 		]
 	}
 ]
