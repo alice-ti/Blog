@@ -46,7 +46,7 @@ import { toRefs } from 'vue'
 
 const props = defineProps({
 	list: {
-		type: Array,
+		type: Array<any>,
 		default() {
 			return []
 		}

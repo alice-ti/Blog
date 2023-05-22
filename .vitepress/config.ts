@@ -11,11 +11,6 @@ const config = {
 	dest: '/dist',
 	// base: '/Blog/', // github.io/Blog
 	base: '/',
-	// 头部head
-	head: [
-		// 添加图标
-		['link', { rel: 'icon', href: '/favicon.ico' }]
-	],
 	// 忽略死链接
 	ignoreDeadLinks: true,
 	// 上次更新时间

@@ -1,9 +1,11 @@
 import nav from './nav'
 import footer from './footer'
+import head from './head'
 import { getDocs, getDirDocs } from './sidebar'
 
 const themeConfig = {
 	nav,
+	head,
 	footer,
 	sidebar: {
 		'/files/docs/': getDocs('files/docs'),
@@ -14,7 +16,7 @@ const themeConfig = {
 	// 全文搜索配置
 	// algolia: {},
 	// 导航栏右侧社交链接配置
-	socialLinks: [{ icon: 'github', link: '#' }],
+	// socialLinks: [{ icon: 'github', link: '#' }],
 	logo: '/logo/logo-v2.png',
 	// 启动页面丝滑滚动
 	smoothScroll: true,
