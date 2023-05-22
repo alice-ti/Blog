@@ -8,13 +8,13 @@
     "build": "vitepress build",
     "serve": "vitepress serve"
   },
-  "author": "",
+  "author": "alice-ti",
   "license": "ISC",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.65",
-    "vue": "^3.2.47"
+    "vitepress": "^1.0.0-alpha.76",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11"
+    "@types/node": "^20.2.3"
   }
 }
