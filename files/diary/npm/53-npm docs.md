@@ -8,7 +8,7 @@
 
 这个命令主要做了两件事
 
-- 为 npm 包目录创建软链接，将其链到 {prefix}/lib/node_modules/<package>，是一个快捷方式
+- 为 npm 包目录创建软链接，将其链到 `{prefix}/lib/node_modules/<package>`，是一个快捷方式
 - 为可执行文件(bin)创建软链接，将其链到 {prefix}/bin/{name}
 
 
