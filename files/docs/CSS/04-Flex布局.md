@@ -89,6 +89,12 @@ flex-basis: auto;
 
 主轴上Flex项目的 **overflow** 属性是 **visible** 时，主轴上Flex项目的最小尺寸（**min-size**）将会指定一个自动的（**automatic**）最小尺寸 ”
 
+## flex-flow
+
+**`flex-flow`** 属性是 flex-direction 和 flex-wrap 的简写。
+
+flex-direction 中的 `row-reverse` 表现同 **row** ，但是置换了主轴起点和主轴终点
+
 ## Flex 上的滚动失效
 
 [flex-end为什么overflow无法滚动及解决方法](https://link.zhihu.com/?target=https%3A//www.zhangxinxu.com/wordpress/2021/12/flex-end-overflow/)

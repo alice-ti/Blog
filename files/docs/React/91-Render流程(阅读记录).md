@@ -10,7 +10,7 @@
 > Fiber节点是如何被创建并构建Fiber树的
 
 ## Render
-  
+
 **render阶段** 开始于 **performSyncWorkOnRoot** 或 **performConcurrentWorkOnRoot** 方法的调用。这取决于本次更新是同步更新还是异步更新。
 
 ```js
