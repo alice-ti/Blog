@@ -2,7 +2,7 @@
 
 ## filter: drop-shadow
 
-常用的设置阴影方案 `box-shadow` 不适用在伪元素和半透明的装饰上。 
+常用的设置阴影方案 `box-shadow` 不适用在伪元素和半透明的装饰上。
 
 对于不规则阴影，推荐使用的是``filter: drop-shadow`
 
@@ -36,4 +36,3 @@ div:after {
     transform:rotate(45deg);
 }
 ```
-
