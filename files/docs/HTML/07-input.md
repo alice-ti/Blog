@@ -26,7 +26,7 @@ DOM 接口 **`CompositionEvent`** 表示用户间接输入文本（如使用输�
 
 
 
-> 使用此 API 结合 `onChange` 可以解决 <Input> 输入中文输入法时 `onchange` 触发多次问题
+> 使用此 API 结合 `onChange` 可以解决 `<Input>` 输入中文输入法时 `onchange` 触发多次问题
 
 ### useCompositions
 
