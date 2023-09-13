@@ -2,9 +2,7 @@
 
 ## 微信 H5 拉取支付
 
-### 流程
-
-
+### 流程-1
 
 ## 微信 JSAPI 拉取支付
 
@@ -24,11 +22,11 @@
    3. 再通过 `wx.checkJsApi()` 判断客户端版本是否支持指定JS接口
    4. 再在 `wx.checkJsApi()` 里成功回调函数中调用 `wx.chooseWXPay()` 发起微信支付请求
 
-通过 `wx.chooseWXPay()` 
+通过 `wx.chooseWXPay()`
 
- - 支付成功回调：`cancel: function(res){}`
- - 支付失败回调：`fail: function(err){}`
- - 取消支付回调 `cancel: function(res){}`
+- 支付成功回调：`cancel: function(res){}`
+- 支付失败回调：`fail: function(err){}`
+- 取消支付回调 `cancel: function(res){}`
 
 分别处理不同支付结果
 

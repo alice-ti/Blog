@@ -1,5 +1,24 @@
 # Tailwind CSS
 
+## 渐变背景使用
+
+开始颜色`from-{color}`, 结束颜色`to-{color}`, 中间颜色`via-{color}`
+
+```html
+<div class="bg-gradient-to-r from-cyan-500 to-blue-500 ..."></div>
+<div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ..."></div>
+```
+
+### 背景图片
+
+`bg-[url('图片路径')]`
+
+```html
+<div class="bg-[url('/img/hero-pattern.svg')]">
+  <!-- ... -->
+</div>
+```
+
 [Tailwind CSS 方案简介](https://mp.weixin.qq.com/s/YH3RCYGdvd67jkmN8DPIgg)
 
 [深入理解Tailwind CSS](https://mp.weixin.qq.com/s/rM83WQaWoQeNdLk-KyV3fQ)

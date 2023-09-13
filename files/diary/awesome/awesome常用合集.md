@@ -26,3 +26,7 @@
 - [Awesome Web Security](https://github.com/qazbnm456/awesome-web-security)
 - [Awesome Font](https://github.com/FortAwesome/Font-Awesome)
 - [Awesome Mac](https://github.com/jaywcjlove/awesome-mac)
+
+## AIGC Awesome
+
+- [Awesome-ChatGPT-Repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories/blob/main/docs/README.zh-hans.md)
