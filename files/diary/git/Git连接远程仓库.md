@@ -54,6 +54,10 @@ git remote show origin
 git push origin master
 ```
 
+````bash
+git pull origin main --allow-unrelated-histories
+````
+
 ## 远程仓库的重命名与移除
 
 你可以运行 `git remote rename` 来修改一个远程仓库的简写名。 例如，想要将 **github** 重命名为 **paul**，可以用 `git remote rename` 这样做：
@@ -73,6 +77,15 @@ git remote
 ```
 
 一旦你使用这种方式删除了一个远程仓库，那么所有和这个远程仓库相关的远程跟踪分支以及配置信息也会一起被删除
+
+### 远程仓库路径发生变化
+
+当原生仓库项目目录发生变化时，需要本地更改所关联的 **remote**
+
+```bash
+// 原 remote https://xxx/aaa.git
+git remote set-url origin https://xxx/bbb.git
+```
 
 ---
 
