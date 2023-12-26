@@ -1,24 +1,40 @@
-# Hooks
+# Hooks & API
 
-## react 常用hooks
+## useState & useReducer
 
-### useState & useReducer
+## useEffect & useLayoutEffect
 
-### useEffect & useLayoutEffect
+> [useEffect 完整指南](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
 
-#### [useEffect 完整指南](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
+## useMemo & useCallback
 
-### useMemo & useCallback
+## useContent
 
-### useContent
+## useImmer
 
-### useImmer
+> [使用 Immer 编写简洁的更新逻辑](https://zh-hans.react.dev/learn/updating-objects-in-state#write-concise-update-logic-with-immer)
 
-### useRef
+```tsx
+import { useImmer } from 'use-immer';
 
-## 常用 Api
+const [person, setPerson] = useImmer({
+    name: 'Niki de Saint Phalle',
+    artwork: {
+        title: 'Blue Nana',
+        city: 'Hamburg',
+        image: 'https://i.imgur.com/Sd1AgUOm.jpg',
+    }
+});
 
-### forwardRef
+// 这样更新并不会覆盖之前的 state！
+updatePerson(draft => {
+    draft.name = e.target.value;
+});
+```
+
+## useRef
+
+## forwardRef
 
 访问其他组件的DOM节点
 
@@ -51,8 +67,6 @@ export default function Form() {
 }
 ```
 
-#### 使用 **useImperativeHandle** 限制公开的能力
+## 使用 **useImperativeHandle** 限制公开的能力
 
-## React-DOM
-
-### flushSync
+## flushSync

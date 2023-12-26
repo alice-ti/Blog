@@ -36,3 +36,14 @@ div:after {
     transform:rotate(45deg);
 }
 ```
+
+## filter: grayscale
+
+常用于哀悼色
+
+```css
+body {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(graysale=1);
+    -webkit-filter: grayscale(100%);
+}
+```
