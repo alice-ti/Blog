@@ -25,6 +25,7 @@ cache
 *.njsproj
 *.sln
 *.sw?
+.history
 
 # build file
 .eslintcache
