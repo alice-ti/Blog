@@ -53,4 +53,3 @@ module.exports = exports['default'];
 已经有插件来实现类似操作 [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports#readme)
 
 ## export 导出解构对象
-

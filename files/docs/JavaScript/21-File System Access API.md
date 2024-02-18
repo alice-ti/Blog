@@ -1,6 +1,6 @@
 # **File System Access API**
 
-这个接口所提供的一系列方法能够让网页直接读取文件并保存修改到本地，以及访问目录。相比于`HTML5 `所提供的`File`、`FileReader `确实是提供了更强大的能力。不过目前该接口只在`Chrome`及`chromium`系的`Edge`浏览器上使用。
+这个接口所提供的一系列方法能够让网页直接读取文件并保存修改到本地，以及访问目录。相比于`HTML5`所提供的`File`、`FileReader`确实是提供了更强大的能力。不过目前该接口只在`Chrome`及`chromium`系的`Edge`浏览器上使用。
 
 ---
 

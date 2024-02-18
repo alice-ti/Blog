@@ -1,20 +1,16 @@
 # Nginx
 
-
-
 ## 代理与反向代理
 
 ### 正向代理
 
 正向代理（**forward proxy**）是一个位于客户端和目标服务器之间的服务器(代理服务器)，为了从目标服务器取得内容，客户端向代理服务器发送一个请求并指定目标，然后代理服务器向目标服务器转交请求并将获得的内容返回给客户端。
 
-
-
 > **正向代理，"代理服务器"代理了"客户端"，去和"目标服务器"进行交互。**
 
 #### **正向代理的用途**
 
-- **突破访问限制** 
+- **突破访问限制**
 - **提高访问速度**
 - **隐藏客户端真实IP**
 
@@ -41,59 +37,53 @@
 
 4、正向代理和反向代理的作用和目的不同。**正向代理主要是用来解决访问限制问题。而反向代理则是提供负载均衡、安全防护等作用。二者均能提高访问速度。**
 
-
-
 ### 网站有多个 webapp 的配置
 
-假如 www.alice-ti.com站点有好几个 webapp，finance（金融）、product（产品）、admin（用户中心）。访问这些应用的方式通过上下文(context)来进行区分:
+假如 <www.alice-ti.com站点有好几个> webapp，finance（金融）、product（产品）、admin（用户中心）。访问这些应用的方式通过上下文(context)来进行区分:
 
-www.alice-ti.com/finance/
+<www.alice-ti.com/finance/>
 
-www.alice-ti.com/product/
+<www.alice-ti.com/product/>
 
-www.alice-ti.com/admin/
+<www.alice-ti.com/admin/>
 
 ```bash
 http {
-	#此处省略一些基本配置
+ #此处省略一些基本配置
 
-	upstream product_server{
-		server www.alice-ti.com:8081;
-	}
+ upstream product_server{
+  server www.alice-ti.com:8081;
+ }
 
-	upstream admin_server{
-		server www.alice-ti.com:8082;
-	}
+ upstream admin_server{
+  server www.alice-ti.com:8082;
+ }
 
-	upstream finance_server{
-		server www.alice-ti.com:8083;
-	}
+ upstream finance_server{
+  server www.alice-ti.com:8083;
+ }
 
-	server {
-		#此处省略一些基本配置
-		#默认指向product的server
-		location / {
-			proxy_pass http://product_server;
-		}
+ server {
+  #此处省略一些基本配置
+  #默认指向product的server
+  location / {
+   proxy_pass http://product_server;
+  }
 
-		location /product/{
-			proxy_pass http://product_server;
-		}
+  location /product/{
+   proxy_pass http://product_server;
+  }
 
-		location /admin/ {
-			proxy_pass http://admin_server;
-		}
+  location /admin/ {
+   proxy_pass http://admin_server;
+  }
 
-		location /finance/ {
-			proxy_pass http://finance_server;
-		}
-	}
+  location /finance/ {
+   proxy_pass http://finance_server;
+  }
+ }
 }
 ```
-
-
-
-
 
 ## nginx常用命令
 
@@ -113,8 +103,6 @@ nginx -V            显示 nginx 的版本，编译器版本和配置参数。
 ```bash
 ps -ax | grep nginx
 ```
-
-
 
 相关文章
 

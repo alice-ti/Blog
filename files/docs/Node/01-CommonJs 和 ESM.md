@@ -2,8 +2,6 @@
 
 **Js** 社区存在多种模块化规范，目前流行的js模块化规范有CommonJS、AMD、CMD、UMD以及ES6。其中最常使用到的是 **node** 本身实现的 `commonjs` 和 es6 标准的 `es module`。
 
-
-
 ## **CommonJS**
 
 NodeJS是CommonJS规范的主要实践者，它有四个重要的环境变量为模块化的实现提供支持：`module`、`exports`、`require`、`global`。实际使用时，用`module.exports`定义当前模块对外输出的接口（不推荐直接用`exports`），用`require`加载模块
@@ -32,7 +30,7 @@ http.createService(...).listen(3000);
 
 `CommonJS` 用**同步**的方式加载模块。**在服务端，模块文件都存放在本地磁盘，读取非常快，所以这样做不会有问题。但是在浏览器端，限于网络原因，更合理的方案是使用异步加载。**
 
-### `exports`和`module.export`区别：
+### `exports`和`module.export`区别
 
 - `exports`：对于本身来讲是一个变量（对象），它不是module的引用，它是`{}`的引用，它指向`module.exports`的{}模块。只能使用`.`语法 向外暴露变量。
 - `module.exports`：`module`是一个变量，指向一块内存，`exports`是`module`中的一个属性，存储在内存中，然后`exports`属性指向`{}`模块。既可以使用`.`语法，也可以使用`=`直接赋值。

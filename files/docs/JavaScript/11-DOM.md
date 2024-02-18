@@ -28,8 +28,6 @@ document.getElementById('#input') == document.activeElement
 - 屏幕可用工作区高度：window.screen.availHeight;
 - 屏幕可用工作区宽度：window.screen.availWidth;
 
-> **scrollWidth**  是对象的实际内容的宽，不包边线宽度，会随对象中内容的多少改变（内容多了可能会改变对象的实际宽度）
-
-> **clientWidth**  是对象可见的宽度，不包滚动条等边线，会随窗口的显示大小改变。
-
-> **offsetWidth**  是对象的可见宽度，包滚动条等边线，会随窗口的显示大小改变。
+> **scrollWidth**  是对象的实际内容的宽，不包边线宽度，会随对象中内容的多少改变（内容多了可能会改变对象的实际宽度）  
+> **clientWidth**  是对象可见的宽度，不包滚动条等边线，会随窗口的显示大小改变。  
+> **offsetWidth**  是对象的可见宽度，包滚动条等边线，会随窗口的显示大小改变。  

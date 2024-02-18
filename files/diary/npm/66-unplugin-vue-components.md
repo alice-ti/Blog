@@ -2,7 +2,7 @@
 
 vue 的组件按需自动引入
 
-###### Features
+## Features
 
 - 💚 Supports both Vue 2 and Vue 3 out-of-the-box.
 - ✨ Supports both components and directives.

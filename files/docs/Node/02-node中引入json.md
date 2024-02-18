@@ -1,7 +1,5 @@
 # node中引入json文件
 
-
-
 ## 使用 fs 模块读取和解析 JSON 文件
 
 Node.js 文档建议使用 `fs` 模块并自己完成读取文件和解析的工作。
@@ -14,8 +12,6 @@ const json = JSON.parse(
   )
 )
 ```
-
-
 
 ## 利用 CommonJS `require` 方法加载 JSON 文件
 
@@ -31,8 +27,6 @@ const data = require('./data.json')
 >
 > 使用 `fs` 模块可以随意改变加载后的 JS 变量，而且各模块互不影响，因为他们都是独立的，是多个 JS 对象。
 
-
-
 ## import Assertions
 
 使用**assert**声明类型
@@ -44,4 +38,3 @@ import data from './package.json' assert { type: 'json' }
  
 console.log(data)
 ```
-
