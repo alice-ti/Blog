@@ -1,9 +1,11 @@
 # 访问dist包
 
-## 使用serve
+## 本地启动服务
+
+### 使用serve
 
 ```bash
-npx serve -s dist -p 7333
+npx serve -s dist -p 5666
 ```
 
 ### **Serve 配置**
@@ -40,4 +42,27 @@ npx serve --config dist/.servedrc -p 5666
 - Local:    http://localhost:5666
 ````
 
-## 使用 http-serve
+### 使用 http-serve
+
+## 通过测试/正式域名访问
+
+通过配置 **HOST** 和 **nginx** 之后，将测试/正式环境下的请求转发到 `1` 启动的本地服务上。
+
+示例如下：
+
+```host
+172.17.7.147   ceshi.com
+```
+
+```conf
+server {
+    listen      80;
+    server_name ceshi.com;
+
+    location /ceshi/ {
+     proxy_pass http://172.17.7.147:5666/;
+    }
+}
+```
+
+之后就可以通过 `http://localhost:5666/ceshi/#route` 访问到本地 dist 包所对应项目

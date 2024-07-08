@@ -11,16 +11,12 @@
 - 为 npm 包目录创建软链接，将其链到 `{prefix}/lib/node_modules/<package>`，是一个快捷方式
 - 为可执行文件(bin)创建软链接，将其链到 {prefix}/bin/{name}
 
-
-
-### **npm link** 使用：
+### **npm link** 使用
 
 - npm link：将当前的包link到全局
 - npm link {pkg}：將当前项目文件夹的 node_modules/{pkg} 链接到本地全局对应的包
 
 > 这里的 **pkg** 要对应 **npm** 包 **package.json** 里的 **name** 字段值。
-
-
 
 ### 去除软链接
 
@@ -35,8 +31,6 @@
    ```bash
    npm unlink 
    ```
-
-
 
 #### 查看所有创建的全局链接名称
 

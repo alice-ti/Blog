@@ -1,5 +1,7 @@
 # 认识 NestJS
 
+> ps: [神光掘金小册](https://juejin.cn/book/7226988578700525605?enter_from=course_center&utm_source=course_center)
+
 项目开发离不开工程化的部分，比如创建项目、编译构建、开发时 watch 文件变动自动构建等。
 
 Nest 项目自然也是这样，所以它在 `@nestjs/cli` 这个包里提供了 `nest` 命令。

@@ -1,0 +1,13 @@
+# TTS
+
+- [https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqa0plcDdEcHQ4dko1X2J5V25HdmlDSjRnaUdMd3xBQ3Jtc0trZ3NvSEdmek5pNzhrekRKenREQmQ4R0VkN1B3MkZQNnBkS3lUV3dSWERCcGI5ZEZzLWc1QUVyOTVmQWZTRVQyUHJQbDh4dHh5NVQtMjU2RWtZeDRJcktEY2JsWkFNQjZxd2x1a3FLdWhPWVQyejJTYw&q=https%3A%2F%2Fazure.microsoft.com%2Fzh-cn%2Fservices%2Fcognitive-services%2Ftext-to-speech%2F%23overview)
+
+- [https://ondoku3.com/zh-hans/](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbTZDczBBcGJTUXhjY1BHMHpMbTZZRkFUSTFiQXxBQ3Jtc0tsaVFTSnFLSzV5ZUh1X0g2SkxIUS15WTlvWGhZWGdyMjFMRUZFRndUTjBYT18yb2gtS2dJZVdPTzY0Y2RMblZEemZScVdGc0JmZnhaRk5kMmdQX2I0Q0V5T0tMNWlOcW5YRXBFU3VVa01Kd0FvZ00xRQ&q=https%3A%2F%2Fondoku3.com%2Fzh-hans%2F)
+
+- [https://freetts.com/#ssml](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbmJHMEdzVzluX2k3T21pbGU3amEyLWJTU1ZvUXxBQ3Jtc0tucFdEMnVGV1JlYi1hMndGUFFERk1Bb0F4YmJqNmNpLWFCT2VjNFA2S0lablBUWFpvM053MXlJRDREd0VDWGZZVmVyNGR5b0xOcWN5U1lTME1abmVZX1RuZS1peWNTM3h2b19zdndyYW95UFFLd0tudw&q=https%3A%2F%2Ffreetts.com%2F%23ssml)
+
+- [https://uberduck.ai/](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEdkT1VGNS1YNWw5RU55bHYzaTQtb09LakQ2UXxBQ3Jtc0ttUDBpNXMzbExMaldxQmYyTlJXbjRsVWV5b2dzOHltbV9mYkZvYWYzWUdma0xMVWd1LUdEMU1LN3ZXUzRqRVBhMXRYaE9zWTJmNVEtSzRqRnlFMXB4LXJIX1ZBWmFSU1BHRjVad2FCbHYySmRXSVJSNA&q=https%3A%2F%2Fuberduck.ai%2F)
+
+- [https://shengka.ai.sogou.com/](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbTVxLTI5WlFwSm9sZWhXR3IyM01UNzg5ZUNpUXxBQ3Jtc0tuU0xOVng1amhtNW94YUFseG5nRHYyNWhKZTNINEhZMy1Uc05WU2VpVzFaUFR0QnlNYTRsZS0waTBxblQtLW9MenNuX1dhOW5vQVlfbUl5UjN0WFJ3VFV1SDJrSnV5M3pHWEpRTEJPb1IyNXFYMU8zTQ&q=https%3A%2F%2Fshengka.ai.sogou.com%2F)
+
+- [https://www.xaudiopro.com/aivoice/](https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbmk4dnVSajFlQjgtb0RyRG1QbTd0Q1R0d2xwUXxBQ3Jtc0trNUx4V2g1QVRFNjlnRUVQUko3WFpadmN5SDhlVGZ3TXREekpFY3ZocXNhT1dLazZhSkNiWF9uNjU2NFh3dTlRSjg2a0J2bmFIY0xVRXplbE5CMjJUaFlNdENRNmlrTEN0eTNBbUozcDBrTlRVQjZNNA&q=https%3A%2F%2Fwww.xaudiopro.com%2Faivoice%2F)

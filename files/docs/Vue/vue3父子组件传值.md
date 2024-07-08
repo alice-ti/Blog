@@ -104,13 +104,14 @@ MediaDialog.vue
  
 <script setup>
 import { ref, provide } from 'vue'
- 
-  const props =  defineProps(['name','visible'])
+    
+const emit =  defineProps(['update:visible'])
+const props =  defineProps(['name','visible'])
 
   // 使用 emit 改变父组件visible的值
-  const handleClose = function() {
+const handleClose = function() {
     emit('update:visible', false)
-  }
+}
 </script>
  
  

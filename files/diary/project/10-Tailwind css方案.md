@@ -1,6 +1,45 @@
 # Tailwind CSS
 
-## 渐变背景使用
+## 项目中引入 **Tailwind CSS**
+
+下载 **tailwind CSS** 所需依赖
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
+
+```js
+/** postcss.config.js */
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+```
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+将 `@tainwind` 指令放到 **css** 文件中
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+## 日常使用技巧
+
+### 渐变背景使用
 
 开始颜色`from-{color}`, 结束颜色`to-{color}`, 中间颜色`via-{color}`
 
