@@ -1,20 +1,21 @@
 {
-  "name": "alice",
-  "version": "1.0.0",
-  "description": "alice with vitepress",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vitepress dev --port 8999",
-    "build": "vitepress build",
-    "serve": "vitepress serve"
-  },
-  "author": "alice-ti",
-  "license": "ISC",
-  "dependencies": {
-    "vitepress": "^1.0.0-alpha.76",
-    "vue": "^3.3.4"
-  },
-  "devDependencies": {
-    "@types/node": "^20.2.3"
-  }
+	"name": "alice",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "alice with vitepress",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vitepress dev --port 8999",
+		"build": "vitepress build",
+		"serve": "vitepress serve"
+	},
+	"author": "alice-ti",
+	"license": "ISC",
+	"dependencies": {
+		"vitepress": "^1.6.3",
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@types/node": "^20.2.3"
+	}
 }
