@@ -33,3 +33,14 @@ npm install -g nrm
 nrm ls
 nrm use taobao
 ```
+
+---
+
+**2024** 淘宝镜像源更新后新地址
+
+```bash
+# old
+https://registry.npm.taobao.org
+# new
+https://registry.npmmirror.com
+```

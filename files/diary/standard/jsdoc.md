@@ -31,6 +31,17 @@ function add(num1,num2){
 function minus(num1,num2){
     return num1 – num2;
 }
+
+/**
+* @description 减法运算
+* @param {Object} options
+* @param {Num} [options.num1=0]
+* @param {Num} [options.num2]
+* @return {Num} result 结果
+*/
+function calculate({ num1,num2 }){
+   return // do sth.
+}
 ```
 
 将 **描述注释** 和 **类型注释** 分开
