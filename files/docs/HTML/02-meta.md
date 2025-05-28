@@ -14,11 +14,11 @@
 
   - 用来表示网页的作者的名字，例如某个组织或者机构，例如 `<meta name="author" content="aaa@mail.abc.com">`
 
-- **name="`description`"**![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3nJ2ia3et6e42SQEIgWekzORRwicdUHsoOicTcr4QfZGOW10jhuuO0e8bQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+- **name="`description`"**
 
   - 一段简短而精确的、对页面内容的描述
 
-- **name="`keywords`"**![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3IV7mU2JukzxSwPxCTvAnVryJSWPRSrrIKcux0dy6b1oCMAXg5ZDKQg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+- **name="`keywords`"**
 
   - 与页面内容相关的关键词，使用逗号分隔，便于某些搜索引擎在遇到这些关键字时对文档进行分类
 
@@ -33,13 +33,11 @@
   - **index**：搜索引擎 索引 此网页
   - **follow**：搜索引擎继续通过此网页的链接索引搜索 **其它的网页**
   - 表示爬虫对此页面的处理行为 或 应当遵守的规则，是用来做搜索引擎抓取的
-  - 可设置 **`<meta name="robots" content="all | none | index | follow">`**<img src="https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3Tz4ZIxhqr4I6azhuc0NIvrcs4V07YrUbEiaPoBp2cViaXeLhOEMJia4AQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:150%;" />
+  - 可设置 **`<meta name="robots" content="all | none | index | follow">`**
 
 - **name="`renderer`"**
 
   - 用来指定支持双核浏览器要采用哪种的渲染方式，如 360 浏览器
-
-    <img src="https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3NojOSvNh0WuQiaSvickX09hRJXM4C1gxe96jvAiavtjFkkBa1x35olobQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1" alt="图片" style="zoom:150%;" />
 
     ```html
     <meta name="renderer" content="webkit"> // 默认 webkit 内核
@@ -55,7 +53,7 @@
 
 - **http-equiv="X-UA-Compatible"**
 
-  - 一般用来是做 **IE 浏览器适配** 的，如以下告诉 IE 浏览器使用最高版本来渲染页面 ![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3gQwPTAMrIUQ9x0wK0E6xIWH5iakNeUYxVhFrL2rXld1Uibo5RJZ1WAeg/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+  - 一般用来是做 **IE 浏览器适配** 的，如以下告诉 IE 浏览器使用最高版本来渲染页面
 
 - **http-equiv="Content-Type"**
 
@@ -84,16 +82,14 @@
 - 若使用这个属性，那么它的值只能是字符串 **`"utf-8"`** （不区分 ASCII 大小写），因为 **UTF-8 是 HTML5 文档的唯一有效编码**
 - 声明字符编码的 **`<meta>`** 元素必须完全位于 **文档的前 1024 个字节内**
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb3AiaaW4cHiaw9NaicqZ3qobrJakPhB4Em2ziao2qtANb7ctX8YZfe9ltLicA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 ## **`<meta>` 扩展**
 
 ### **清除缓存**
 
 在 **单页面应用 (`Single Page Application, SPA`)** 中，对应的 **html 文件** 是不需要被缓存的，只需要对 html 文件中的 **`CSS、JavaScript`** 等资源进行缓存（得益于现代构建工具的特性，可以直接使用 **强缓存**），那么此时我们就可以通过设置 **`<meta http-equiv>`** 来实现 html 文件清除缓存功能，如下：
 
-```
-html    <meta http-equiv="Expires" content="0" />
+```html
+    <meta http-equiv="Expires" content="0" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Cache-control" content="no-cache" />
     <meta http-equiv="Cache" content="no-cache" />
@@ -117,8 +113,7 @@ html    <meta http-equiv="Expires" content="0" />
 
 除了使用 **`<meta>`** 标签本身提供特定元数据内容之外，我们其实也可以自定义元数据，只不过这个元数据不会被当前文档所识别并被应用，例如：
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/p3q0CDzmjJMiaOdc66KmWcqicrWgtuVicb359MB9ZvOxNz6IO5sjHrBQpjZxvfic9S3n0kMtpP0LqKYNBDpV2Pdib2A/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
 ---
 
-[写 H5 页面真的要了解 <meta> 标签!](https://mp.weixin.qq.com/s/Rb0BCYmjMw7iHH4bi_wZCQ)
+[写 H5 页面真的要了解 `<meta>` 标签!](https://mp.weixin.qq.com/s/Rb0BCYmjMw7iHH4bi_wZCQ)
+[作为前端，你必须要知道的meta标签知识](https://juejin.cn/post/7089271039842058253?searchId=20250528190545A2AD88E3A4A33111D3D4)

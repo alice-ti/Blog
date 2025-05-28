@@ -2,7 +2,7 @@
 
 **Docker** 三大件
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/iaWSDo4TfyZiaCmf5ibz2fJoicf2QAvJGfeNz0LZwVosW0f4CIibgAoedX4HRibuJ03un1h9JWfmrAHDbqFYKX0EnkNA/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+![alt text](/files/images/DOCKER-01-image-1.png)
 
 ## 如何下载Docker
 

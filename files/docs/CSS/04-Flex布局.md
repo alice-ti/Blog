@@ -101,4 +101,7 @@ flex-direction 中的 `row-reverse` 表现同 **row** ，但是置换了主轴�
 
 ---
 [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
+
 [CSS 防御](https://www.zhihu.com/question/424471207/answer/2317334806)
+
+[终于搞懂了Flex:1 是怎么工作的了！](https://www.51cto.com/article/683878.html)
