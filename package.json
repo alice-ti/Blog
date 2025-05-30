@@ -5,17 +5,17 @@
 	"description": "alice with vitepress",
 	"main": "index.js",
 	"scripts": {
-		"dev": "vitepress dev --port 8999",
-		"build": "vitepress build",
-		"serve": "vitepress serve"
+		"docs:dev": "vitepress dev document",
+		"docs:build": "vitepress build document",
+		"docs:preview": "vitepress preview document"
 	},
-	"author": "alice-ti",
+	"author": "Alice-Ti",
 	"license": "ISC",
 	"dependencies": {
 		"vitepress": "^1.6.3",
-		"vue": "^3.3.4"
+		"vue": "^3.5.16"
 	},
 	"devDependencies": {
-		"@types/node": "^20.2.3"
+		"@types/node": "^22.15.26"
 	}
 }

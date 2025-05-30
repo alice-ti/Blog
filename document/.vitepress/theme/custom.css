@@ -1,0 +1,86 @@
+:root {
+	--vp-home-hero-name-color: #5c005c;
+	--vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff);
+	--c-brand: #23d0d0;
+	--c-brand-light: #1dbdd2;
+	/* 主色调 */
+
+	/* --color-main: var(--c-brand); */
+	/* 底部栏色调 */
+	--color-border: #5c005c;
+	/* 引用字体色 */
+	--color-block: #5c005c;
+	/* 加粗色调 */
+	--color-strong: #5c005c;
+	/* 代码样式 */
+	--color-code: #5c005c;
+	/* 引用边框色 */
+	--color-border-left: #5c005c;
+	/* 代码背景色 */
+	--color-code-bg: rgba(77, 208, 225, 0.08);
+	/* 引用背景色 */
+	--color-block-bg: rgba(77, 208, 225, 0.15);
+
+	/* a标签 */
+	--vp-c-brand: #9e1068;
+	--vp-c-brand-dark: #520339;
+	/* 按钮 */
+	--vp-button-brand-border: #5e2780;
+	--vp-button-brand-hover-bg: #8a1874;
+	--vp-button-brand-hover-border: #a6559d;
+	--vp-button-brand-active-bg: #8a1874;
+	--vp-button-brand-active-border: #8a1854;
+}
+
+/* 滚动条样式设置 */
+::-webkit-scrollbar {
+	/*滚动条整体样式*/
+	width: 8px;
+	/*高宽分别对应横竖滚动条的尺寸*/
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	/*滚动条里面小方块*/
+	border-radius: 5px;
+	transition: background-color 0.3s;
+	background: rgba(144, 147, 153, 0.4);
+}
+
+::-webkit-scrollbar-track {
+	/*滚动条里面轨道*/
+	border-radius: 5px;
+	background: #f0f0f0;
+}
+
+/* css */
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	font-weight: 600;
+	line-height: 1.45;
+}
+
+.container h2 {
+	position: relative;
+	border-bottom: 4px solid var(--color-border);
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.container h2::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 400px;
+	height: 10px;
+	border-top-right-radius: 24px;
+	background: linear-gradient(90deg, var(--vp-c-bg), var(--vp-home-hero-name-color));
+	max-width: 50vw;
+}
