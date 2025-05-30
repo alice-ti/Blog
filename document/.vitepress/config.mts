@@ -29,11 +29,5 @@ export default defineConfig({
 		}
 	},
 
-	// 配置 markdown-it 选项
-	async buildEnd(siteConfig) {
-		// 在这里可以处理特殊文件类型
-		console.log('Build completed')
-	},
-
 	themeConfig
 })

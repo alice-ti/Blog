@@ -1,5 +1,5 @@
 const nav = [
-	{ text: '精选好文', link: '/files/blog/转载博客.md' },
+	{ text: '精选好文', link: '/blog/转载博客.md' },
 	{
 		text: '我的分类',
 		items: [

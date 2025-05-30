@@ -6,6 +6,9 @@ hero:
   name: "Alice-Ti"
   text: "爱丽丝梦游仙境"
   tagline: Lorem ipsum...
+  image:
+    src: /assets/images/logo.png
+    alt: Ghost
   actions:
     - theme: brand
       text: Get Started
