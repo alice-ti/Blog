@@ -5,6 +5,8 @@
 	"description": "alice with vitepress",
 	"main": "index.js",
 	"scripts": {
+		"dev": "vitepress dev document",
+		"build": "vitepress build document",
 		"docs:dev": "vitepress dev document",
 		"docs:build": "vitepress build document",
 		"docs:preview": "vitepress preview document"
