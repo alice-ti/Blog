@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.BivmJ8bT.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/Python/安装下载.md","filePath":"docs/Python/安装下载.md","lastUpdated":1748592476000}'),a={name:"docs/Python/安装下载.md"};function s(c,n,r,d,_,p){return o(),e("div")}const f=t(a,[["render",s]]);export{m as __pageData,f as default};
