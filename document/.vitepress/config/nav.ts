@@ -18,7 +18,7 @@ const nav = [
 	{
 		text: 'Drop Menu',
 		items: [
-			{ text: 'Uniapp', link: '/program/miniapp/uniapp' },
+			{ text: 'Uniapp', link: '/docs/Miniapp/uniapp' },
 			{ text: 'Basic setting', link: '/program/standard/01-baseConfig' },
 			{ text: 'More Settings', link: '/program/standard/02-replenishConfig' },
 			{ text: 'JsDoc', link: '/program/standard/jsdoc' },

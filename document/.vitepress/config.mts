@@ -19,6 +19,8 @@ export default defineConfig({
 	// 上次更新日期
 	lastUpdated: true,
 
+	themeConfig,
+
 	markdown: {
 		// 代码块显示行号
 		lineNumbers: false,
@@ -29,5 +31,4 @@ export default defineConfig({
 		}
 	},
 
-	themeConfig
 })

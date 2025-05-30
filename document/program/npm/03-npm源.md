@@ -10,7 +10,7 @@ npm --registry https://registry.npm.taobao.org install express
 
 ## 切换源
 
-```ba
+```bash
 npm config set registry https://registry.npm.taobao.org
 ```
 

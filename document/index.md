@@ -7,7 +7,7 @@ hero:
   text: "爱丽丝梦游仙境"
   tagline: Lorem ipsum...
   image:
-    src: /assets/images/logo.png
+    src: /images/logo.png
     alt: Ghost
   actions:
     - theme: brand
@@ -25,4 +25,3 @@ hero:
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
