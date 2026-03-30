@@ -22,7 +22,7 @@ jobs:
       # 安装NODE环境
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 22
           cache: pnpm
 
       # 安装依赖

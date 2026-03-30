@@ -58,6 +58,43 @@ module.exports = {
 </div>
 ```
 
+### 响应式
+
+#### 断点前缀:类名
+
+Tailwind CSS 通过 `断点前缀:类名` 的形式定义元素的响应式样式：
+
+```react
+'use client';
+
+import useWindowWidth from '@/hooks/useWindowWidth';
+
+export default function Home() {
+  const width = useWindowWidth();
+
+  return (
+    <main className="text-center sm:bg-red-300 md:bg-orange-300 lg:bg-yellow-300 xl:bg-green-300 2xl:bg-blue-300">
+      <div>hello tailwind css</div>
+      <div>current width: {width}px</div>
+    </main>
+  );
+}
+```
+
+没有加上断点前缀的类名默认是作用于所有设备大小的
+
+#### 定义范围
+
+如果只想在 `sm` 到 `lg` 的范围内应用某个样式，单纯的 `lg`是无法满足的。
+
+这个时候就需要使用 `:max-`，`[min]`**:max-**`[max]`
+
+```tsx
+<main className="sm:max-lg:bg-red-300">
+  <div>hello tailwind css</div>
+</main>
+```
+
 ### 滚动条
 
 [Tailwind CSS 方案简介](https://mp.weixin.qq.com/s/YH3RCYGdvd67jkmN8DPIgg)

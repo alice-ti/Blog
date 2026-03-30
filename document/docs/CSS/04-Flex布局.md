@@ -95,6 +95,58 @@ flex-basis: auto;
 
 flex-direction 中的 `row-reverse` 表现同 **row** ，但是置换了主轴起点和主轴终点
 
+## flex: 1 无效的情况
+
+有时候设置`flex: 1`会无效。
+
+这个时候有一种 hack 方式
+
+使用 **overflow: hidden; */\* 或 auto, scroll \*/***
+
+### 为什么添加 overflow 有效
+
+当你给元素添加 overflow 属性时，它会创建一个新的块级格式化上下文，这改变了元素的高度计算方式。
+
+在 Flexbox 容器中：
+
+- height: 100% 需要明确的父元素高度参考
+- 但 flex 容器的高度是动态计算的
+- 这就造成了循环依赖：子元素需要父元素高度，父元素高度又依赖子元素
+
+```html
+<!-- 之前：高度计算混乱 -->
+<div class="flex-1 flex flex-col">
+  <div style="height: 100%">内容</div>
+</div>
+
+<!-- 之后：高度计算正常 -->
+<div class="flex-1 flex flex-col overflow-hidden">
+  <div style="height: 100%">内容</div>
+</div>
+```
+
+### 深层原理
+
+1. **强制高度确定**: overflow 让浏览器必须确定容器的确切高度
+2. **打破循环依赖**: 建立明确的高度参考点
+3. **触发重新计算**: 浏览器重新评估整个布局
+
+虽然 overflow 能解决问题，但更语义化的方法是使用 **flex-1** + **min-height: 0**
+
+```css
+/* 推荐方式 */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* 关键！ */
+}
+
+.flex-item {
+  flex: 1;
+  min-height: 0; /* 关键！ */
+}
+```
+
 ## Flex 上的滚动失效
 
 [flex-end为什么overflow无法滚动及解决方法](https://link.zhihu.com/?target=https%3A//www.zhangxinxu.com/wordpress/2021/12/flex-end-overflow/)

@@ -1,8 +1,8 @@
 {
-	"name": "alice",
+	"name": "alices-document",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "alice with vitepress",
+	"description": "Alice with vitepress",
 	"main": "index.js",
 	"scripts": {
 		"dev": "vitepress dev document",
